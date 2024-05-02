@@ -1,0 +1,30 @@
+nest g service Product api/admin/product --flat
+
+project folder structure
+api/user module
+api/user Auth service
+api/user Auth guard
+
+
+
+api/admin module
+api/admin AuthService
+api/admin AuthGuard
+
+api/admin/product folder
+api/admin/product folder/Product_dto
+api/admin/product folder/ProductController
+api/admin/product folder/ProductService
+api/admin/product folder/ProductInterface
+
+api/admin/category folder
+api/admin/category folder/Category_dto
+api/admin/category folder/CategoryController
+api/admin/category folder/CategoryService
+api/admin/category folder/CategoryInterface
+
+api/admin/brand folder
+api/admin/brand folder/Brand_dto
+api/admin/brand folder/BrandController
+api/admin/brand folder/BrandService
+api/admin/brand folder/BrandInterface
